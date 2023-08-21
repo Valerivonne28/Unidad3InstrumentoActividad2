@@ -10,7 +10,6 @@ CREATE TABLE usuarios (
     municipio VARCHAR(100)
 );
 select * from usuarios;
-
 INSERT INTO usuarios (numero_de_control, usuario, password, email, nombre, telefono, municipio)
 VALUES
     (1220100603, 'ANZO001', 'Valeria', 'anzo.maric@gmail.com', 'ANZO AVALOS MARIA CITLALLI', '4181234567', 'Dolores Hidalgo'),
